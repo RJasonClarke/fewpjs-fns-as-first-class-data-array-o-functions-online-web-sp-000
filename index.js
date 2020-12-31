@@ -23,3 +23,7 @@ function unleashDog(dogName, dogBreed) {
 }
 
 var routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog];
+
+function excerciseDog(dog, breed) {
+  return routin.map(fn => fn(dog, breed))
+}
