@@ -30,3 +30,4 @@ const exerciseDog = (dogName, dogBreed) => {
        results.push(routine[i](dogName, dogBreed));
     }
     return results;
+}
